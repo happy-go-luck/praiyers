@@ -1,0 +1,428 @@
+header {
+  width: 100%;
+}
+
+header .h-main .back-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(../business/img/businessMain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 66.66%;
+}
+
+main .business {
+  margin: 10px 0 50px 0;
+}
+
+main .business .contents .sub-title2 {
+  background-color: #326fb6;
+}
+
+main .business .contents .sub-title2 h5 {
+  padding: 2px 15px;
+  margin: 10px 0 0 0;
+  font-size: 1.1em;
+}
+
+main .business .contents p {
+  font-size: 0.8em;
+}
+
+main .business .contents .c-contents {
+  width: 100%;
+}
+
+main .business .contents .c-contents h5 {
+  font-size: 0.8em;
+  margin: 0px 0 0 0;
+}
+
+main .business .contents .c-contents p {
+  margin: 0 0 10px 0;
+}
+
+main .business .section {
+  padding: 5%;
+  background-color: #b4e0f1;
+  margin: 30px 0 0 0;
+}
+
+main .business .section .qualification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .business .section .qualification .q-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .business .section .qualification .q-flex .left {
+  width: 80%;
+}
+
+main .business .section .qualification .q-flex .left .content .q-title {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+main .business .section .qualification .q-flex .left .content p {
+  text-align: center;
+  font-size: 0.5em;
+}
+
+main .business .section .qualification .q-flex .right {
+  width: 100%;
+}
+
+main .business .section .qualification .q-flex .right img {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .business .section .qualification p {
+  font-size: 0.8em;
+}
+
+main .business .section .after .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .business .section .after .left .img1 {
+  width: 60%;
+}
+
+main .business .section .after .left .img2 {
+  width: 30%;
+}
+
+main .business .section .after .right .a-title {
+  width: 40%;
+  color: white;
+  border-radius: 20px;
+  background-color: #326fb6;
+  font-size: 0.8em;
+}
+
+main .business .section .after .right .a-title p {
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  text-align: center;
+  padding: 5%;
+  font-size: 0.8em;
+}
+
+main .business .section .after .right p {
+  font-size: 0.8em;
+}
+
+main .products {
+  margin: 10px 0 50px 0;
+}
+
+main .products .contents .sub-title {
+  width: 80%;
+  font-size: 0.8em;
+}
+
+main .products .contents p {
+  margin: 5px 0 0 0;
+  font-size: 0.8em;
+}
+
+main .products .lineup {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  display: -ms-grid;
+  display: grid;
+  grid-template: '. .' '. .';
+}
+
+main .products .lineup .product {
+  margin: 20px 0 0 0;
+      grid-template-areas: '.';
+}
+
+main .products .lineup .product img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .products .lineup .product h5, main .products .lineup .product p {
+  font-size: 0.8em;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .products .lineup .product p {
+  font-size: 0.5em;
+}
+
+main .suggestions {
+  margin: 10px 0 50px 0;
+}
+
+main .suggestions .section {
+  margin: 10px 0 30px 0;
+  padding: 5%;
+  background-color: #d8d8d8;
+}
+
+main .suggestions .section .s-title h3 {
+  color: #326fb6;
+  margin: 5px 0 10px 0;
+}
+
+main .suggestions .section .s-title img {
+  width: 15%;
+}
+
+main .suggestions .section .suggestion .contents {
+  width: 100%;
+}
+
+main .suggestions .section .suggestion .contents h5 {
+  margin: 20px 0 0 0;
+}
+
+main .suggestions .section .suggestion .contents p {
+  margin: 5px 0;
+  font-size: 0.8em;
+}
+
+main .suggestions .section .suggestion .imgs img {
+  width: 50%;
+}
+
+main .suggestions .section .suggestion .imgs p {
+  margin: 0;
+  font-size: 0.5em;
+}
+
+main .suggestions .section .suggestion .imgs .img img {
+  width: 80%;
+}
+
+main .suggestions .section .suggestion .imgs2 .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .suggestions .section .suggestion .imgs2 .img .img-none {
+  display: none;
+}
+
+main .suggestions .section .suggestion .imgs2 .img img {
+  width: 50%;
+}
+
+main .suggestions .section .suggestion .imgs2 .img p {
+  font-size: 0.5em;
+}
+
+main .suggestions .section .suggestion .imgs2 img {
+  margin: 10px 0 0 0;
+  width: 50%;
+}
+
+main .suggestions .section .suggestion .right img {
+  width: 60%;
+}
+
+main .performance {
+  margin: 10px 0 30px 0;
+}
+
+main .performance img, main .performance p {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 80%;
+}
+
+main .performance p {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+main .promotion {
+  margin: 50px auto;
+  background-color: #F8F6E9;
+  padding: 5%;
+}
+
+main .promotion .c-img .img1 {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
+main .promotion .c-img .img2 {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .promotion .contents {
+  margin: 0;
+  width: 100%;
+}
+
+main .promotion .contents .sub-title2 {
+  background-color: #326fb6;
+}
+
+main .promotion .contents .sub-title2 h5 {
+  padding: 2px 15px;
+  font-size: 1.1em;
+}
+
+main .promotion .contents h5 {
+  margin: 50px 0 0 0;
+  font-size: 1.1em;
+}
+
+main .promotion .contents p {
+  margin: 5px 0 10px 0;
+  font-size: 0.8em;
+}
+
+main .promotion .t-flex {
+  width: 100%;
+}
+
+main .promotion .t-flex .t-contents .t-title {
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  color: #326fb6;
+}
+
+main .promotion .t-flex .t-imgs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .promotion .t-flex .t-imgs .img1 {
+  width: 50%;
+}
+
+main .promotion .t-flex .t-imgs .img2 {
+  width: 45%;
+}
+
+main .promotion .t-flex .t-imgs .img2 img {
+  width: 100%;
+}
+
+main .promotion .t-flex .t-imgs .img2 p {
+  font-size: 0.5em;
+}
+
+main .promotion .otegaru-net {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .promotion .otegaru-net img {
+  width: 70%;
+  margin: 0 0 30px 0;
+}
+
+main .promotion .otegaru-net .ditail {
+  width: 100%;
+}
+
+main .promotion .otegaru-net .ditail .d-title {
+  width: 50%;
+  color: white;
+  border-radius: 100px;
+  background-color: #326fb6;
+}
+
+main .promotion .otegaru-net .ditail .d-title p {
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  text-align: center;
+  padding: 3%;
+}
+
+main .promotion .otegaru-net .ditail p {
+  margin: 10px 0 30px 5px;
+  font-size: 0.8em;
+}
+/*# sourceMappingURL=style.css.map */

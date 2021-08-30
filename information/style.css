@@ -1,0 +1,83 @@
+header .h-top .h-list li {
+  border-left: 1px solid black;
+}
+
+header .h-top .h-list li a {
+  color: black;
+}
+
+header .h-top .h-list li:hover {
+  border-left: 2px solid black;
+}
+
+header .h-top .hide .fas {
+  color: black;
+}
+
+.information {
+  margin: 16% 0 0 0;
+}
+
+.information .contents .content {
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+.information .contents .content .recruit {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.information .contents .content .recruit p {
+  margin: 20px 0 0 0;
+  font-size: 0.8em;
+}
+
+.information .contents .content .recruit p span {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.information .contents .content .recruit a {
+  font-size: 0.5em;
+}
+
+.information .contents .content .recruit .mail {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.information .contents .content .recruit .mail .fas {
+  margin: 0 5px 0 0;
+  color: gray;
+}
+
+.information .contents .access img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.information .maps {
+  width: 100%;
+}
+
+.information .maps .map {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.information .maps .map h5 {
+  margin: 30px 0 0 0;
+}
+
+.information .maps .map p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.information .maps .map iframe {
+  width: 100%;
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */

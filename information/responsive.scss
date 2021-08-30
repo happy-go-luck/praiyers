@@ -1,0 +1,107 @@
+@mixin flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin margin-center($width:80%) {
+  width: $width;
+  margin: 0 auto;
+}
+
+$c-white:white;
+$c-black:black;
+$c-navy:rgb(50, 111, 182);
+
+
+$fontL:1.8em;
+$fontMT:1.5em;
+$fontM:1.3em;
+$fontS:1.1em;
+$fontSS:0.8em;
+
+
+
+@media screen and (min-width:900px) {
+
+  .information {
+    .title-flex {
+      display: flex;
+  
+      .title {
+        width: 20%;
+      }
+  
+      .contents {
+        width: 100%;
+        margin: 100px auto 0 auto;
+
+        .sub-title {
+          width: 20%;
+          margin: 0 auto 30px 0 ;
+          transform: translateX(25%);
+
+          // margin: 0 auto 30px auto;
+          
+          h5 {
+            width:100%;
+            font-size: $fontM;
+            padding: 1% 3%;
+          }
+        }
+
+        .content {
+          width: 80%;
+          margin: 0 auto;
+
+          .recruit {
+            p {
+              font-size: $fontS;
+
+              span {
+                font-size: $fontM;
+              }
+            }
+
+            .mail {
+              font-size: $fontM;
+            }
+
+            a {
+              font-size: $fontSS;
+            }
+          }
+        }
+
+        
+      }
+
+
+    }
+
+    .maps {
+      width: 90%;
+      margin: 0 auto;
+      display: grid;
+      grid-template: '. .'
+                     '. .';
+
+      .map {
+        grid-template-areas: '.';
+      }               
+    }
+
+    .contents {
+      .sub-title {
+        @include margin-center();
+        #access {
+          padding: 2% 5%;
+          width: 20%;
+          font-size: $fontMT;
+        }
+      }
+    }
+  }
+
+  
+}

@@ -1,0 +1,360 @@
+@media screen and (min-width: 900px) {
+  main .contents .sub-title {
+    margin: 0;
+  }
+  main .contents .sub-title h5 {
+    padding: 2% 10%;
+    width: 60%;
+    font-size: 1.3em;
+  }
+  main .business .title-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .business .title-flex .title {
+    width: 20%;
+  }
+  main .business .title-flex .contents {
+    width: 80%;
+  }
+  main .business .title-flex .contents .sub-title2, main .business .title-flex .contents .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .business .title-flex .contents .sub-title2 h5 {
+    font-size: 1.5em;
+  }
+  main .business .title-flex .contents .content h5 {
+    margin: 30px 0 0 0;
+    font-size: 1.3em;
+  }
+  main .business .title-flex .contents .content p {
+    font-size: 1.1em;
+  }
+  main .business .c-contents {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .business .c-contents #shikaku, main .business .c-contents #after {
+    font-size: 1.3em;
+    margin: 10px 0 0 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .business .c-contents p {
+    width: 80%;
+    font-size: 1.1em;
+  }
+  main .business .sections {
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .business .sections .qualification {
+    display: block;
+  }
+  main .business .sections .qualification .q-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .business .sections .qualification .q-flex .left .content .q-title {
+    margin: 0 auto 10px auto;
+  }
+  main .business .sections .qualification .q-flex .left .content .q-title p {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  main .business .sections .qualification .q-flex .left .content p {
+    font-size: 0.5em;
+    margin: 0;
+  }
+  main .business .sections .qualification .q-flex .right {
+    font-size: 1.3em;
+  }
+  main .business .sections .qualification .q-flex .right img {
+    width: 50%;
+  }
+  main .business .section {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .business .section .after {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .business .section .after .right .a-title {
+    font-size: 1.3em;
+  }
+  main .business .section .after .left {
+    width: 40%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .business .section .after .left .img1 {
+    width: 70%;
+  }
+  main .business .section .after .left .img2 {
+    margin: 30px 0 0 0;
+    width: 50%;
+  }
+  main .business .section .after .right {
+    width: 50%;
+  }
+  main .business .section .after .right p {
+    font-size: 1.1em;
+  }
+  main .contents {
+    width: 100%;
+  }
+  main .contents .sub-title {
+    width: 90%;
+    margin: 0 auto 10px auto;
+  }
+  main .contents .sub-title h5 {
+    width: 20%;
+    padding: 1% 5%;
+  }
+  main .products .contents p {
+    font-size: 1.1em;
+    margin: 0 auto 30px auto;
+    width: 80%;
+  }
+  main .products .lineup {
+    grid-template: '. . .' '. . .';
+  }
+  main .products .lineup .product p {
+    font-size: 0.8em;
+  }
+  main .products .lineup .product h5 {
+    font-size: 1.1em;
+  }
+  main .suggestions {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .suggestions .section {
+    padding: 5%;
+  }
+  main .suggestions .section .s-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  main .suggestions .section .s-title img {
+    width: 5%;
+    margin: 0 10px 0 0;
+  }
+  main .suggestions .section .s-title h3 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  main .suggestions .section .suggestion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .suggestions .section .suggestion .contents {
+    width: 100%;
+    margin: 0;
+  }
+  main .suggestions .section .suggestion .contents h5 {
+    font-size: 1.3em;
+  }
+  main .suggestions .section .suggestion .contents p {
+    font-size: 1.1em;
+  }
+  main .suggestions .section .suggestion .display-flex {
+    width: 100%;
+  }
+  main .suggestions .section .suggestion .imgs {
+    width: 50%;
+  }
+  main .suggestions .section .suggestion .imgs img {
+    display: block;
+    margin: 0 0 0 auto;
+    width: 70%;
+  }
+  main .suggestions .section .suggestion .imgs p {
+    text-align: center;
+  }
+  main .suggestions .section .suggestion .imgs .img img {
+    width: 100%;
+  }
+  main .suggestions .section .suggestion .imgs .img p {
+    text-align: center;
+  }
+  main .suggestions .section .left {
+    width: 45%;
+  }
+  main .suggestions .section .left h5 {
+    font-size: 1.3em;
+  }
+  main .suggestions .section .left p {
+    font-size: 1.1em;
+  }
+  main .suggestions .section .left .imgs2 {
+    margin: 30px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  main .suggestions .section .left .imgs2 .img {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .suggestions .section .left .imgs2 .img .img-none {
+    display: block;
+  }
+  main .suggestions .section .left .imgs2 .img img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .suggestions .section .right {
+    width: 50%;
+  }
+  main .suggestions .section .right h5 {
+    font-size: 1.3em;
+  }
+  main .suggestions .section .right p {
+    font-size: 1.1em;
+  }
+  main .suggestions .section .right img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .performance {
+    width: 70%;
+    margin: 0 auto;
+  }
+  main .performance img, main .performance .p {
+    width: 60%;
+    margin: 0 auto;
+  }
+  main .promotion {
+    width: 80%;
+    margin: 120px auto 0 auto;
+    padding: 10px 5%;
+  }
+  main .promotion .c-img .img1 {
+    width: 60%;
+    margin: 0 auto;
+    margin: 70px auto 0 auto;
+  }
+  main .promotion .c-img .img2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .promotion .contents .sub-title2 {
+    margin: 0 0 50px 0;
+  }
+  main .promotion .contents .sub-title2 h5 {
+    font-size: 1.5em;
+  }
+  main .promotion .contents h5 {
+    font-size: 1.3em;
+  }
+  main .promotion .contents p {
+    font-size: 1.1em;
+  }
+  main .promotion .t-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .promotion .t-flex .t-contents {
+    width: 60%;
+  }
+  main .promotion .t-flex .t-imgs {
+    width: 40%;
+    display: block;
+  }
+  main .promotion .t-flex .t-imgs .img1 {
+    width: 80%;
+    margin: auto 0 auto auto;
+  }
+  main .promotion .t-flex .t-imgs .img2 {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+  main .promotion .t-flex .t-imgs .img2 p {
+    font-size: 1rem;
+    text-align: right;
+  }
+  main .promotion .otegaru-net {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .promotion .otegaru-net img {
+    width: 30%;
+    margin: 0 auto;
+  }
+  main .promotion .otegaru-net .ditail {
+    width: 50%;
+    margin: 0 auto;
+  }
+  main .promotion .otegaru-net .ditail p {
+    font-size: 1.1em;
+  }
+  main .promotion .otegaru-net .ditail .d-title {
+    width: 40%;
+  }
+  main .promotion .otegaru-net .ditail .d-title p {
+    font-size: 1.1em;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

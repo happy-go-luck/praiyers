@@ -1,0 +1,454 @@
+@mixin flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin margin-center($width:80%) {
+  width: $width;
+  margin: 0 auto;
+}
+
+$c-white:white;
+$c-black:black;
+$c-navy:rgb(50, 111, 182);
+
+
+$fontL:1.8em;
+$fontMT:1.5em;
+$fontM:1.3em;
+$fontS:1.1em;
+$fontSS:0.8em;
+
+@media screen and (min-width:900px) {
+
+  main {
+
+    .contents {
+      .sub-title {
+        margin: 0;
+        h5 {
+          padding: 2% 10%;
+          width: 60%;
+          font-size: $fontM;
+        }
+      }
+    }
+
+
+    .business {
+
+      .title-flex {
+        display: flex;
+  
+        .title {
+          width: 20%;
+        }
+  
+        .contents {
+          width: 80%;
+
+
+  
+          .sub-title2,.content {
+            @include margin-center(80%);
+          }
+
+          .sub-title2 {
+            h5 {
+              font-size: $fontMT;
+            }
+          }
+
+          .content {
+            h5 {
+              margin: 30px 0 0 0;
+              font-size: $fontM;
+            }
+
+            p {
+              font-size: $fontS;
+            }
+          }
+        }
+        
+      }
+
+      .c-contents {
+        width: 100%;
+        @include flex_center();
+        flex-direction: column;
+
+        #shikaku,#after {
+          font-size: $fontM;
+          margin: 10px 0 0 0;
+          @include margin-center(80%)
+
+        }
+        p {
+          width: 80%;
+          font-size: $fontS;
+        }
+      }
+
+      
+
+      .sections {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+
+        .qualification {
+          display: block;
+          
+          .q-flex {
+            display: flex;
+            align-items: center;
+
+            .left {
+              .content {
+
+                .q-title {
+                  margin: 0 auto 10px auto;
+                  p {
+                    font-size: $fontS;
+                    font-weight: bold;
+                  }
+                }
+                p {
+                  font-size: 0.5em;
+                  margin: 0;
+                }
+              }
+  
+            }
+  
+            .right {
+              font-size: $fontM;
+
+              img {
+                width: 50%;
+              }
+            }
+          }
+
+          
+        }
+      }
+
+
+      .section {
+        width: 80%;
+        margin: 0 auto;
+
+        .after {
+          display: flex;
+
+          .right {
+            .a-title {
+              font-size: $fontM;
+            }
+          }
+          
+          .left {
+            width: 40%;
+            flex-direction: column;
+
+            .img1 {
+              width: 70%;
+            }
+            .img2 {
+              margin: 30px 0 0 0;
+              width: 50%;
+            }
+          }
+
+          .right {
+            width: 50%;
+
+            p {
+              font-size: $fontS;
+            }
+          }
+        }
+      }
+
+    }
+
+
+    .contents {
+      width: 100%;
+      .sub-title {
+        width: 90%;
+        margin: 0 auto 10px auto;
+
+        h5 {
+          width: 20%;
+          padding: 1% 5%;
+        }
+      }
+
+    }
+
+
+    .products {
+
+      .contents {
+
+        p {
+          font-size: $fontS;
+          margin: 0 auto 30px auto;
+          width: 80%;
+        }
+      }
+
+      .lineup {
+      grid-template: '. . .'
+                     '. . .';
+        
+        .product {
+          p {
+            font-size: $fontSS;
+          }
+
+          h5 {
+            font-size: $fontS;
+          }
+
+
+        }
+      }
+    }
+
+    .suggestions {
+      width: 80%;
+      margin: 0 auto;
+
+      .section {
+        padding: 5%;
+
+        .s-title {
+          display: flex;
+          align-items: flex-end;
+
+          img {
+            width: 5%;
+            margin: 0 10px 0 0;
+          }
+
+          h3 {
+            margin: 0;
+            font-size: $fontM;
+          }
+        }
+
+        .suggestion {
+          display: flex;
+          justify-content: space-between;
+          
+          
+          .contents {
+            width: 100%;
+            margin: 0;
+
+            h5 {
+              font-size: $fontM;
+            }
+            p {
+              font-size: $fontS;
+            }
+          }
+
+          .display-flex {
+            width: 100%;
+          }
+
+          .imgs {
+            width: 50%;
+
+            
+            img {
+              display: block;
+              margin: 0 0 0 auto;
+              width: 70%;
+            }
+            p {
+              text-align: center;
+            }
+
+            .img {
+              img {
+                width: 100%;
+              }
+              p {
+                text-align: center;
+              }
+            }
+          }
+
+          
+        }
+        
+      }
+
+      .section {
+        .left {
+          width: 45%;
+
+          h5 {
+            font-size: $fontM;
+          }
+
+          p {
+            font-size: $fontS;
+          }
+
+
+          .imgs2 {
+            margin: 30px auto 0 auto;
+            display: flex;
+            align-items: flex-start;
+
+            
+            .img {
+              width: 100%;
+              flex-direction: column;
+
+
+              .img-none {
+                display: block;
+              }
+              
+              img {
+                width: 80%;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+
+        .right {
+          width:50%;
+
+          h5 {
+            font-size: $fontM;
+          }
+          p {
+            font-size: $fontS;
+          }
+
+          img {
+            @include flex_center();
+            @include margin-center(100%);
+          }
+        }
+      }
+    }
+
+    .performance {
+      width: 70%;
+      margin: 0 auto;
+
+      img,.p {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+
+    .promotion {
+      width: 80%;
+      margin: 120px auto 0 auto;
+      padding: 10px 5%;
+
+      .c-img {
+        .img1 {
+          @include margin-center(60%);
+          margin: 70px auto 0 auto;
+        }
+        .img2 {
+          @include margin-center(100%)
+        }
+      }
+
+      .contents {
+        .sub-title2 {
+          margin: 0 0 50px 0;
+          h5 {
+            font-size: $fontMT;
+          }
+        }
+        h5 {
+          font-size: $fontM;
+        }
+        p {
+          font-size: $fontS;
+        }
+      }
+
+      .t-flex {
+        @include flex_center();
+        // align-items: flex-start;
+
+        .t-contents {
+          width: 60%;
+        }
+
+        .t-imgs {
+          width: 40%;
+          display: block;
+
+          .img1 {
+            width: 80%;
+            margin: auto 0 auto auto;
+
+            
+          }
+          .img2 {
+            @include margin-center(60%);
+            display: block;
+
+            p {
+              font-size: 1rem;
+              text-align: right;
+            }
+          }
+        }
+      }
+
+      
+
+      .otegaru-net {
+       flex-direction: row;
+       align-items: center;
+
+        img {
+          width: 30%;
+          margin: 0 auto;
+        }
+
+        .ditail {
+          width: 50%;
+          margin: 0 auto;
+
+          p {
+            font-size: $fontS;
+          }
+
+          .d-title {
+            width: 40%;
+
+            p {
+              font-size: $fontS;
+            }
+          }
+        }
+       
+
+
+      }
+    }
+
+
+
+  }
+}

@@ -1,0 +1,66 @@
+@media screen and (min-width: 900px) {
+  main .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .about .contents .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .about .contents .content h5 {
+    font-size: 1.5em;
+    margin: 10px 0 0 0;
+  }
+  main .about .contents .content p {
+    font-size: 1.3em;
+  }
+  main .about .content2 img {
+    width: 50%;
+  }
+  main .company .contents .table {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .company .contents .table ul li {
+    font-size: 1.1em;
+  }
+  main .company img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+  main .sub-title {
+    margin: 0 auto 30px auto;
+    width: 80%;
+  }
+  main .sub-title h5 {
+    width: 20%;
+    padding: 1%;
+    font-size: 1.3em;
+  }
+  main .president .contents img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  main .president .contents .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .president .contents .content h5 {
+    font-size: 1.3em;
+    margin: 50px 0 0 0;
+  }
+  main .president .contents .content p {
+    font-size: 1.3em;
+    margin: 20px 0 0 0;
+  }
+  main .president .contents .content .person p {
+    font-size: 1.1em;
+  }
+  main .president .contents .content .person img {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

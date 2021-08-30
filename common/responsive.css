@@ -1,0 +1,136 @@
+@media screen and (min-width: 900px) {
+
+  /* HEADERのレスポンシブ共通 */
+  header .h-top {
+    height: 15%;
+  }
+  header .h-top .hide {
+    display: none;
+  }
+  header .h-top .h-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .h-top .h-list li {
+    font-size: 1em;
+  }
+  /* HEADERのレスポンシブ共通終わり */
+
+
+  /* MAINのレスポンシブ共通 */
+  main .title {
+    width: 30%;
+    max-height: 500px;
+    padding: 50px;
+    margin: 100px 0 0 0;
+  }
+  main .title h3, main .title p {
+    font-size: 1.5em;
+  }
+
+  main .contents {
+    margin: 100px auto 0 auto;
+    width: 80%;
+  }
+  /* MAINのレスポンシブ共通終わり */
+
+  .sub-title {
+    margin: 0 auto 30px auto;
+    /* width: 40%; */
+  }
+
+  .sub-title h5 {
+    width: 20%;
+    padding: 0% 10%;
+    font-size: 1.5em;
+  }
+
+  /* FOOTERのレスポンシブ共通 */
+  footer {
+    padding:5%;
+  }
+  footer .hide-footer {
+    display: none;
+  }
+  footer .f-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .f-container .f-left {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  footer .f-container .f-right {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .f-container .f-right .f-bottom {
+    width: 100%;
+  }
+  footer .f-container .f-right .f-bottom img {
+    width: 100%;
+  }
+  footer .f-container .f-right .f-bottom p {
+    font-size: 1.5em;
+  }
+  footer .f-container .f-right .f-bottom .f-contents .f-content .fas {
+    font-size: 1.8em;
+  }
+  footer .f-container .f-right .back-home {
+    display: block;
+  }
+  /* FOOTERのレスポンシブ共通終わり */
+
+
+
+
+}
+
+
+@media screen and (min-width: 2000px) {
+
+
+  body {
+    font-size: 2.5rem;
+  }
+
+  footer .f-container .f-left .f-section h5 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 3500px) {
+
+
+  body {
+    font-size: 5rem;
+  }
+
+  footer .f-container .f-left .f-section h5 {
+    font-size: 5.5rem;
+  }
+
+}
+@media screen and (min-width: 5000px) {
+
+
+  body {
+    font-size: 7rem;
+  }
+  footer .f-container .f-left .f-section h5 {
+    font-size: 7.5rem;
+  }
+
+}
+

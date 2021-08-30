@@ -1,0 +1,149 @@
+$c-white:white;
+$c-black:black;
+$c-navy:rgb(50, 111, 182);
+
+// レスポンシブ
+// 大画面用フォント
+$fontL:1.8em;
+$fontMT:1.5em;
+$fontM:1.3em;
+$fontS:1.1em;
+
+
+
+@media screen and (min-width:900px) {
+  // 10000x以上の時のスタイル
+  
+  header {
+    // リストが表示＆横並び
+  
+    .h-top {
+      width: 95%;
+      height: 15%;
+
+      .hide {
+        display: none;
+      }
+      .h-list {
+        display: flex;
+        align-items: center;
+
+        li {
+          font-size: $fontS;
+        }
+        
+      }
+    }
+  }
+
+
+  
+  main {
+    .consepts {
+
+      h3 {
+        font-size: 2em;
+      }
+
+      img {
+        width: 30%;
+      }
+    }
+
+    // .title {
+    //   width: 40%;
+    //   padding: 50px;
+
+    //   h3,p {
+    //     font-size: $fontL;
+    //   }
+    // }
+
+    .topics,.news {
+      margin: 100px 0 0 0;
+      display: flex;
+    }
+
+    .topics {
+      .contents {
+
+        #close-topics,#show-topics {
+          margin: 0 auto;
+
+          p {
+            font-size: $fontS;
+            width: 30%;
+            
+          }
+        }
+      }
+    }
+
+    .contents {
+      width: 100%;
+
+      ul {
+        li {
+          
+          p {
+            width: 80%;
+            font-size: $fontM;
+
+          }
+          span {
+          font-size: $fontM;
+          }
+        }
+      }
+    }
+  }
+
+  
+  footer {
+    padding: 10% 5%;
+    // リストがたくさん表示される
+    // 横並びになる
+  
+    .hide-footer {
+      display: none;
+    }
+  
+    .f-container {
+      display: flex;
+  
+      .f-left {
+        width: 70%;
+        display: flex;
+        justify-content: left;       
+      
+        // }
+      }
+  
+      .f-right {
+        width: 30%;
+        display: flex;
+  
+        .f-bottom {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+
+          p {
+            font-size: $fontM;
+          }
+        }
+  
+        .back-home {
+          display: block;
+        }
+      }
+    }
+  
+  }
+  
+  
+
+}
+
+

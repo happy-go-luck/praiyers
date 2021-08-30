@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./home/style.css">
+  <link rel="stylesheet" href="./home/responsive.css">
+  <link rel="stylesheet" href="../common/style.css">
+  <link rel="stylesheet" href="./common/responsive.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+$(function() {
+  var h = $(window).height();
+  
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+  
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+</script>
+
+  <title>HOME</title>
+</head>
+
+
+<body>
+
+
+  <div id="loader-bg">
+    <div id="loader">
+      <img src="./common/img/logo1.png" width="200" height="auto" alt="Now Loading..." />
+      <p>Now Loading...</p>
+    </div>
+  </div>
+
+  
+  <div id="wrap">
+
+
+      <header>
+        <div class="h-top">
+          <div class="h-logo">
+            <a href="#"><img src="./common/img/logo1.png" id="logoCC"></a>
+          </div>
+          <ul class="h-list" id="listCC">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#topics">Topics</a></li>
+            <li><a href="../about/index.html">企業情報</a></li>
+            <li><a href="../business/index.html">事業内容</a></li>
+            <li><a href="../information/index.html">採用情報</a></li>
+            <li><a href="../information/index.html">お問い合わせ</a></li>
+          </ul>
+          <div class="hide" >
+            <i class="fas fa-bars open" id="icon"></i>
+            <ul class="hide-list display-none" id="hide-list">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../index.html#topics">Topics</a></li>
+              <li><a href="../about/index.html">企業情報</a></li>
+              <li><a href="./business/index.html">事業内容</a></li>
+              <li><a href="../information/index.html">採用情報</a></li>
+              <li><a href="../information/index.html">お問い合わせ</a></li>
+          </ul>
+          </div>
+        </div>
+  
+        <div class="h-main" id="h-main">  
+          <video muted src="/video/pf.mp4" poster="#" muted autoplay playinline playsinline></video>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+
+          <div class="consepts">
+            <h3>お客様のニーズを推進力に変え、<br>未知なる未来へ挑戦し続ける。</h3>
+            <img src="./home/img/logo2.png">
+          </div>
+
+          <div class="topics" id="topics">
+            <div class="title">
+            <h3>Topics</h3>
+            <p>最新情報</p>
+            </div>
+
+            <div class="contents">
+              <ul>
+                <li><span>2021.11</span><p>日本保育協会 関東地区保育者・女性部合同研修会 横浜大会 展示ブースに出展予定</p></li>
+                <li><span>2021.08</span><p>株式会社One Play.と販売協力契約を締結</p></li>
+                <li><span>2021.07</span><p>Webサイトをリニューアルしました。</p></li>
+                <li><span>2021.05</span><p>長野営業所を開設しました。</p></li>
+                <li><span>2021〜</span><p>お客様と社員の安心安全のため抗原検査を全社員に定期的に実施。</p></li>
+                <li><span>2020.06</span><p>セレクト・プロダクツ事業 新型コロナウイルス対策チーム 設立</p></li>
+                <li><span>2020.04</span><p>株式会社ハンプティーダンプティーと北関東エリア販売代理店契約を締結</p></li>
+                <div id="more-topics">
+                
+                <li><span>2020.05</span><p>R-system PRO販売開始しました。</p></li>
+                <li><span>2019.06</span><p>東海営業所を開設しました。</p></li>
+                <li><span>2018.08</span><p>関西営業所を開設しました。</p></li>
+                <li><span>2018.07</span><p>創業20周年を迎えました。</p></li>
+                  <li><span></span></li>
+                </div>
+              </ul>
+
+              <div id="show-topics">
+                <p>Topicsをもっと見る</p>
+              </div>
+              <div id="close-topics">
+                <p>閉じる</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="news">
+            <div class="title opacity-none">
+            <h3>Topics</h3>
+            <p>最新情報</p>
+            </div>
+            <div class="contents">
+              <ul>
+                <li><span></span></li>
+              </ul>
+          </div>
+          
+        </div>
+
+
+        
+      </main>
+
+      <footer class="white">
+        <ul class="hide-footer">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="../about/index.html">Company</a></li>
+          <li><a href="../business/index.html">Products</a></li>
+          <li><a href="../information/index.html">Information</a></li>
+        </ul>
+
+        <div class="f-container">
+
+          <div class="f-left">
+            <div class="f-section">
+              <h5 class="f-title">Company</h5>
+              <ul>
+                <li><a href="../about/index.html">企業理念<span>社名・ロゴマークの由来</span></li>
+                <li><a href="../about/index.html#gaiyo">会社概要</a></li>
+                <li><a href="../about/index.html#enkaku">沿革</a></li>
+                <li><a href="../about/index.html#president">ご挨拶</a></li>
+              </ul>
+            </div>
+            <div class="f-section">
+              <h5 class="f-title">Products</h5>
+              <ul>
+                <li><a href="../business/index.html">防犯事業</a></li>
+                <li><a href="../business/index.html#promotion">セレクト・プロダクツ事業</a></li>
+                <li><a href="../business/index.html#shikaku">資格について<span>防犯診断士資格/防犯設備士資格</span></a></li>
+                <li><a href="../business/index.html#after">アフターサポート</a></li>
+                <li><a href="../business/index.html#products">製品ラインナップ<span>レコーダー/カメラ/周辺機器</span></a></li>
+                <li><a href="../business/index.html#performance">導入実績</a></li>
+  
+              </ul>
+            </div>
+            <div class="f-section">
+              <h5 class="f-title">Information</h5>
+              <ul>
+                <li><a href="../information/">採用情報</a></li>
+                <li><a href="../information/index.html">お問い合わせ</a></li>
+                <li><a href="../information/index.html#access">アクセス</a></li>
+                <li><a href="#">プライバシポリシー</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+        <div class="f-right">
+          <div class="f-bottom">
+            <a href="./index.html"><img src="../common/img/logo1.png"></a>
+            <div class="f-contents">
+              <div class="f-content">
+                <i class="fas fa-map-marker-alt"></i><p>東京都品川区五反田4-9-2東五反田ビル12階</p>
+              </div>
+              <div class="f-content">
+                <i class="fas fa-phone"></i><p>0354476281</p>
+              </div>
+              <div class="f-content">
+                <i class="fas fa-envelope"></i><p>info@praiyers.co.jp</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="back-home">
+            <a href="#"><i class="fas fa-chevron-up"></i></a>
+          </div>
+        </div>
+
+        </div>
+        
+
+        
+
+        <p class="all-right">Copyright © 2021 Praiyers Co.,Ltd. All rights reserved.</p>
+
+      </footer>
+
+  </div>
+  
+
+
+  
+
+  
+  <script src="main.js"></script>
+  <!-- Nothing -->
+  <!-- Any -->
+  <!-- Objection -->
+  
+
+</body>
+</html>
